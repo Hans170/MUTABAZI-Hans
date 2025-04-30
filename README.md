@@ -1,6 +1,4 @@
 
-
-
 Project Parts:
 
  Question 1: Advanced Vehicle Tax Management System
@@ -17,22 +15,5 @@ Question 3: Internship Management
 - This part is about managing internships. There are classes for Company, Student, Supervisor, and types of internships like ULKInternship and URInternship.
 - The main class to run here is `Main3.java`.
 
- 
-
-   Run this command :
-
-  " docker build -t 23710 ." and then the following one by one individually for each question
-
- Running the project using Docker
-
-For Question 1:
-docker run -it --rm 23710 java -cp out Question1.Main1
-
-
-   For question 2:
-   docker run -it --rm 23710 java -cp out Question2.Mainn
-
-For question 3:
-docker run -it --rm 23710 java -cp out Question3.Main3
 
 
