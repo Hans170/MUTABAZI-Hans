@@ -24,17 +24,18 @@ Question 3: Internship Management
 
  
 
-   Run this command :
+  first this command :
 
   " docker build -t 23710 ." and then the following one by one individually for each question
 
 For question 1:
-   docker run -it --rm 23710 java Question1.Main1
+docker run -it --rm 23710 java -cp out Question1.Main1
+
 
    For question 2:
-   docker run -it --rm 23710 java Question2.Mainn
+   docker run -it --rm 23710 java -cp out Question2.Mainn
 
 For question 3:
-docker run -it --rm 23710 java Question3.Main3
+docker run -it --rm 23710 java -cp out Question3.Main3
 
 
